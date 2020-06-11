@@ -7,7 +7,9 @@ class UserDetail(
     var gender: String? = null,
     var age: Int? = null,
     var date: String? = null,
-    var status: String? = null
+    var status: String? = null,
+
+    var dayDiff: Int? = null
 )
 
 class UserList {
